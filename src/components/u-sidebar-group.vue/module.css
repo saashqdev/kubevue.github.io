@@ -1,0 +1,9 @@
+@import 'proto-ui.kubevue/src/u-sidebar-group.vue/module.css';
+
+.head {
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+    line-height: 32px;
+    margin: 8px 0;
+}

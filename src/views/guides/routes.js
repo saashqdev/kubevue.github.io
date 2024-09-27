@@ -1,0 +1,22 @@
+export default [
+    { path: '', redirect: 'introduction' },
+    { path: 'introduction', component: () => import(/* webpackChunkName: 'guides' */ './introduction.md') },
+    { path: 'installation', component: () => import(/* webpackChunkName: 'guides' */ './installation.md') },
+    { path: 'quickstart', component: () => import(/* webpackChunkName: 'guides' */ './quickstart.md') },
+    { path: 'structure', component: () => import(/* webpackChunkName: 'guides' */ './structure.md') },
+    { path: 'views', component: () => import(/* webpackChunkName: 'guides' */ './views.md') },
+    { path: 'library', component: () => import(/* webpackChunkName: 'guides' */ './library.md') },
+    { path: 'components', component: () => import(/* webpackChunkName: 'guides' */ './components.md') },
+    { path: 'css-modules', component: () => import(/* webpackChunkName: 'guides' */ './css-modules.md') },
+    { path: 'assets', component: () => import(/* webpackChunkName: 'guides' */ './assets.md') },
+    { path: 'test', component: () => import(/* webpackChunkName: 'guides' */ './test.md') },
+    { path: 'deployment', component: () => import(/* webpackChunkName: 'guides' */ './deployment.md') },
+    { path: 'commands', component: () => import(/* webpackChunkName: 'guides' */ './commands.md') },
+    { path: 'config', component: () => import(/* webpackChunkName: 'guides' */ './config.md') },
+
+    { path: 'editor', component: () => import(/* webpackChunkName: 'guides' */ './editor.md') },
+    { path: 'js-style', component: () => import(/* webpackChunkName: 'guides' */ 'eslint-config-kubevue/JavaScript.zh-CN.md') },
+    { path: 'css-style', component: () => import(/* webpackChunkName: 'guides' */ 'stylelint-config-kubevue/README.md') },
+    { path: 'vue-style', component: () => import(/* webpackChunkName: 'guides' */ 'eslint-config-kubevue/Vue.md?live=false') },
+    { path: 'ui-style', component: () => import(/* webpackChunkName: 'guides' */ './ui-style.md') },
+];

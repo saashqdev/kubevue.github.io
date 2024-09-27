@@ -1,0 +1,19 @@
+@import 'proto-ui.kubevue/src/u-sidebar-item.vue/module.css';
+
+.root {
+    color: inherit;
+    padding-left: 26px;
+}
+
+.root[selected] {
+    color: $brand-primary;
+    background-color: #fff;
+}
+
+.root:hover {
+    color: $brand-primary;
+}
+
+.root[disabled] {
+    color: #34495e75;
+}
