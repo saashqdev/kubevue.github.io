@@ -8,7 +8,7 @@ In particular, monochrome icons can convert svg into icon-font, and multi-color 
 
 Icon-font can be easily set in color and size using CSS.
 
-In Vusion, we developed an [icon-font-loader](https://github.com/saashqdev/icon-font-loader/blob/master/README.md), which provides a custom property `icon-font`, which is very convenient to use:
+In Kubevue, we developed an [icon-font-loader](https://github.com/saashqdev/icon-font-loader/blob/master/README.md), which provides a custom property `icon-font`, which is very convenient to use:
 
 > Note: Use it in `:after`.
 
@@ -23,7 +23,7 @@ It will turn into
 
 ```css
 .select:after {
-    font-family: 'vusion-icon-font';
+    font-family: 'kubevue-icon-font';
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -123,7 +123,7 @@ It will turn into
 
 #### Other Resources
 
-Other resources will be uniformly used by [file-loader](https://github.com/webpack-contrib/file-loader). Currently, the following formats have been configured: `png|jpg|gif|svg|eot|ttf|woff|woff2`[\<code\>](https://github.com/saashqdev/vusion-cli/blob/develop/webpack/base.js#L88).
+Other resources will be uniformly used by [file-loader](https://github.com/webpack-contrib/file-loader). Currently, the following formats have been configured: `png|jpg|gif|svg|eot|ttf|woff|woff2`[\<code\>](https://github.com/saashqdev/kubevue-cli/blob/develop/webpack/base.js#L88).
 
 ### Next Step
 

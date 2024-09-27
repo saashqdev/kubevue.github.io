@@ -1,6 +1,6 @@
 # Directory Structure
 
-This section shows in detail the directory structure of different types of Vusion projects, as well as the functions of various directories and files. If you find it unintuitive, you can check out the [Vusion project template](https://github.com/saashqdev/kubevue-templates).
+This section shows in detail the directory structure of different types of Kubevue projects, as well as the functions of various directories and files. If you find it unintuitive, you can check out the [Kubevue project template](https://github.com/saashqdev/kubevue-templates).
 
 ### Simple Single-Page Application (simple)
 
@@ -42,7 +42,7 @@ Its directory structure is as follows:
 │   │   │   └─ ...
 │ │ └─ ... # You can also add other libraries
 │ ├─ assets/ # Resource directory. Stores resource files that need to be imported in Webpack
-│ ├─ services/ # Data layer. You can configure it yourself, but Vusion does not handle it at present.
+│ ├─ services/ # Data layer. You can configure it yourself, but Kubevue does not handle it at present.
 │ ├─ filters/ # General filters
 │ ├─ directives/ # General directives
 │ ├─ utils/ # General utility library
@@ -69,7 +69,7 @@ Its directory structure is as follows:
 ├─ .eslintignore # Files that need to be ignored by ESLint
 ├─ .gitignore # Files that need to be ignored by git
 ├─ package.json # npm package configuration
-├─ kubevue.config.js # Vusion configuration
+├─ kubevue.config.js # Kubevue configuration
 ├─ README.md #Default project documentation
 └─ ...
 ```
@@ -132,7 +132,7 @@ In order to adapt to large-scale scenarios, separate public and private, and fac
 
 ### Component Library or Tool Library (Library)
 
-This type of project is a Vusion component library or tool library. For example, Proto UI, CodeWave. Design, and Icon Sets are of this type.
+This type of project is a Kubevue component library or tool library. For example, Proto UI, CodeWave. Design, and Icon Sets are of this type.
 
 Its directory structure is as follows:
 
@@ -157,7 +157,7 @@ Its directory structure is as follows:
 ├─ .eslintrc # ESLint configuration
 ├─ .eslintignore # Files that need to be ignored by ESLint
 ├─ .gitignore # Files that need to be ignored by git
-├─ package.json # npm package configuration. Simple Vusion configuration can also be written here
+├─ package.json # npm package configuration. Simple Kubevue configuration can also be written here
 ├─ README.md # Default project documentation
 └─ ...
 ```

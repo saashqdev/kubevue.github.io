@@ -103,7 +103,7 @@ Best examples:
 </style>
 ```
 
-### Priority issue [\<issue\>](https://github.com/vusion/vusion-cli/issues/21)
+### Priority issue [\<issue\>](https://github.com/kubevue/kubevue-cli/issues/21)
 
 Since the CSS dependencies are all in JS and then converted into tags by [style-loader](https://github.com/webpack-contrib/style-loader) and inserted into the page, the order between components cannot be guaranteed. In rare cases, there will be priority issues. Here we recommend a way to increase the priority:
 
