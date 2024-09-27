@@ -13,7 +13,7 @@ import apiRoutes from './views/api/routes';
 import Libraries from './views/libraries.vue';
 import Templates from './views/templates.vue';
 
-const Empty = Vue.extend({ template: '<div>待完善...</div>' });
+const Empty = Vue.extend({ template: '<div>To be improved...</div>' });
 
 export default [
     { path: '/', component: Index, children: [

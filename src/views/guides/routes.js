@@ -15,7 +15,7 @@ export default [
     { path: 'config', component: () => import(/* webpackChunkName: 'guides' */ './config.md') },
 
     { path: 'editor', component: () => import(/* webpackChunkName: 'guides' */ './editor.md') },
-    { path: 'js-style', component: () => import(/* webpackChunkName: 'guides' */ 'eslint-config-kubevue/JavaScript.zh-CN.md') },
+    { path: 'js-style', component: () => import(/* webpackChunkName: 'guides' */ 'eslint-config-kubevue/JavaScript.en-US.md') },
     { path: 'css-style', component: () => import(/* webpackChunkName: 'guides' */ 'stylelint-config-kubevue/README.md') },
     { path: 'vue-style', component: () => import(/* webpackChunkName: 'guides' */ 'eslint-config-kubevue/Vue.md?live=false') },
     { path: 'ui-style', component: () => import(/* webpackChunkName: 'guides' */ './ui-style.md') },

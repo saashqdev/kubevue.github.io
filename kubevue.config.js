@@ -33,7 +33,7 @@ module.exports = {
                     options: {
                         wrapper: 'u-article',
                         liveProcess(live, code) {
-                            // 不好直接用自定义标签，容易出问题
+                            // It is not easy to use custom tags directly, as it can cause problems
                             return `<div class="u-example"><div>${live}</div><div slot="code"></div></div>\n\n${code}`;
                         },
                         postprocess(result) {
